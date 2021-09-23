@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <RootNamespace>OPST.TstSln2</RootNamespace>
+        <AssemblyName>OPST.TstPrj2a</AssemblyName>
+        <Company>Operational Streamlining</Company>
+        <Product>Testing</Product>
+        <AssemblyVersion>1.0.0</AssemblyVersion>
+    </PropertyGroup>
+
+</Project>
