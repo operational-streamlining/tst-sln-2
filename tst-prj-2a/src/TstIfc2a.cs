@@ -2,6 +2,6 @@
 {
     public interface TstIfc2a
     {
-        
+        void TstFnc2a();
     }
 }
