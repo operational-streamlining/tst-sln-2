@@ -4,32 +4,16 @@
         <TargetFramework>net5.0</TargetFramework>
         <RootNamespace>OPST.TstSln2</RootNamespace>
         <AssemblyName>OPST.TstPrj2b</AssemblyName>
-        <PackageId>OPST.TstSln2</PackageId>
-        <Title>Test Solution 2</Title>
-        <Authors>OPST</Authors>
-        <Description>Test solution/project.</Description>
-        <Copyright>Copyright 2021</Copyright>
-        <RepositoryUrl>https://github.com/op-st/tst-sln-2</RepositoryUrl>
-        <Company>Operational Streamlining</Company>
-        <Product>Testing</Product>
-        <AssemblyVersion>1.0.0</AssemblyVersion>
-        <TargetsForTfmSpecificBuildOutput>$(TargetsForTfmSpecificBuildOutput);CopyProjectReferencesToPackage</TargetsForTfmSpecificBuildOutput>
-        <PackageVersion>1.0.2</PackageVersion>
     </PropertyGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\tst-prj-2a\tst-prj-2a.csproj">
-            <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
-            <IncludeAssets>OPST.TstPrj2a.dll</IncludeAssets>
-        </ProjectReference>
+      <ProjectReference Include="..\tst-prj-2a\tst-prj-2a.csproj" />
     </ItemGroup>
 
-    <Target DependsOnTargets="ResolveReferences" Name="CopyProjectReferencesToPackage">
-        <ItemGroup>
-            <BuildOutputInPackage Include="@(ReferenceCopyLocalPaths-&gt;WithMetadataValue('ReferenceSourceTarget', 'ProjectReference'))" />
-        </ItemGroup>
-    </Target>
-
+<!--    <ItemGroup>-->
+<!--      <ProjectReference Include="..\tst-prj-2a\tst-prj-2a.csproj" />-->
+<!--    </ItemGroup>-->
+    
 </Project>
 
         <!--References:-->

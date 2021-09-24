@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>OPST.TstSln2</id>
+    <version>1.0.3</version>
+    <title>Test Solution 2</title>
+    <authors>OPST</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/op-st/tst-sln-2</projectUrl>
+    <repository url="https://github.com/op-st/tst-sln-2" />
+    <description>Test solution/project.</description>
+    <dependencies>
+      <group targetFramework="net5.0" />
+    </dependencies>
+    <references>
+<!--      <group targetFramework="net5.0">-->
+<!--        <reference file="OPST.TstPrj2a.dll" />-->
+<!--      </group>-->
+    </references>
+  </metadata>
+  <files>
+    <file src="bin\Debug\net5.0\*.dll" target="lib\net5.0" />
+  </files>
+</package>
